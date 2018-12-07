@@ -8,11 +8,21 @@
       <PostPreview
         id="1"
         thumbnail="https://picsum.photos/200/300"
-        title="Hello there!"
+        title="Hello there 1!"
         previewText="This is my first post"
       />
-      <PostPreview/>
-      <PostPreview/>
+      <PostPreview
+        id="1"
+        thumbnail="https://picsum.photos/200/300"
+        title="Hello there 2!"
+        previewText="This is my second post"
+      />
+      <PostPreview
+        id="1"
+        thumbnail="https://picsum.photos/200/300"
+        title="Hello there 3!"
+        previewText="This is my third post"
+      />
     </section>
   </div>
 </template>
@@ -33,6 +43,7 @@ export default {
   position: relative;
   padding: 30px;
   box-sizing: border-box;
+  background-image: url("~assets/images/main-page-background.jpg");
   background-position: center;
   background-size: cover;
 }
